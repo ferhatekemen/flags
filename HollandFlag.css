@@ -1,0 +1,30 @@
+body {
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+flex-flow:column wrap;
+height:100vh
+}
+
+
+#container{
+    border:1px solid yellow;
+}
+
+#c1,#c2,#c3{margin:0;
+    padding:0;
+    height:5vw;
+    width: 22.5vw;
+}
+
+#c1{
+    background-color:red;
+    }
+#c2{
+background-color:white;
+}
+
+#c3{background-color: blue;
+}

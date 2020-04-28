@@ -1,0 +1,75 @@
+body {
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+flex-flow:column wrap;
+height:100vh;
+background-color:red
+}
+
+
+#TurkeyFlag1{
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+height:100vh;
+    background-color: red;
+    height:400px;
+    width:600px
+}
+
+#c1{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+background-color:white;
+}
+
+#c2{
+    background-color: red;
+    width:200px;
+    height:200px;    
+    border-radius: 50%;
+margin-right:-5px;
+
+}
+
+#c3,#c5, #c6,#c4, #c7{
+    width:0;
+    height:0;
+    border-style:solid;
+border-width:0px 15px 50px 15px;
+border-color:transparent transparent white transparent
+    }
+
+#c3{
+    position:fixed;
+  top:340px;
+  left:922px;
+    transform:rotate(-15deg)
+}
+#c4{
+    position:fixed;
+    top:352px;
+  left:950px;
+    
+    transform:rotate(57deg)}
+#c5{position:fixed;
+    top:380px;
+  left:945px;
+    transform:rotate(129deg)}
+#c6{position:fixed;
+    top:385px;
+  left:920px;
+    transform:rotate(201deg)}
+#c7{position:fixed;
+    top:360px;
+  left:902px;
+    transform:rotate(273deg)}
