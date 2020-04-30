@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #eee;
+}
+
+#TurkeyFlag::before {
+  content: "";
+  height: 20vw;
+  width: 0.6666666667vw;
+  margin-left: -0.6666666667vw;
+  padding: 0;
+  background-color: #fff;
+}
+
+#TurkeyFlag {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 20vw;
+  background-color: #e30a17;
+  width: 30vw;
+  margin-left: -10vw;
+}
+
+#hilal {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 5vw;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+#hilal::after {
+  margin: 0;
+  position: absolute;
+  padding: 0;
+  content: "";
+  display: absolute;
+  margin-left: 1.25vw;
+  background-color: #e30a17;
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+}
+
+#circle {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 14.1666666667vw;
+  width: 5vw;
+  height: 5vw;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+#star1 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 2.5vw 0vw 2.5vw 1.81635625vw;
+  border-color: transparent transparent transparent white;
+  transform: rotate(0deg);
+}
+
+#star2 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 2.5vw 0vw 2.5vw 1.81635625vw;
+  border-color: transparent transparent transparent white;
+  transform: rotate(72deg);
+}
+
+#star3 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 2.5vw 0vw 2.5vw 1.81635625vw;
+  border-color: transparent transparent transparent white;
+  transform: rotate(-68deg);
+}
+
+#heart {
+  margin: auto 6.6666666667vw;
+  width: 6.6666666667vw;
+  height: 6.6666666667vw;
+  background-color: #f33;
+  transform: rotate(-45deg);
+}
+
+#heart::before {
+  content: '';
+  position: absolute;
+  margin-top: -3.3333333333vw;
+  background-color: #f33;
+  width: 6.6666666667vw;
+  height: 6.6666666667vw;
+  border-radius: 50%;
+}
+
+#heart::after {
+  content: '';
+  position: absolute;
+  margin-left: 3.3333333333vw;
+  background-color: #f33;
+  width: 6.6666666667vw;
+  height: 6.6666666667vw;
+  border-radius: 50%;
+}
+
+#RoFlag {
+  height: 20vw;
+  width: 10vw;
+  background-color: #FCD116;
+  margin-left: 10vw;
+}
+
+#RoFlag::before {
+  content: "";
+  position: absolute;
+  height: 20vw;
+  width: 10vw;
+  background-color: #002B7F;
+  margin-left: -10vw;
+}
+
+#RoFlag::after {
+  content: "";
+  position: absolute;
+  height: 20vw;
+  width: 10vw;
+  background-color: #CE1126;
+  margin-left: 10vw;
+}
