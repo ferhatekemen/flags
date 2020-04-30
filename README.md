@@ -1,4 +1,4 @@
 # flags
 flags with pure css
 
-Some country's flag design with Pure CSS
+Some country's flag design
