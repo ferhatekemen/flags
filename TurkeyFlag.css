@@ -68,8 +68,24 @@ body {
   border-radius: 50%;
 }
 
-#star1 {
+#star::before {
+  content: "";
   position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5vw 0vw 5vw 3.6327125vw;
+  border-color: transparent transparent transparent white;
+  transform: rotate(-68deg);
+}
+
+#star {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   margin: 0;
   padding: 0;
   width: 0;
@@ -80,7 +96,8 @@ body {
   transform: rotate(0deg);
 }
 
-#star2 {
+#star::after {
+  content: "";
   position: absolute;
   margin: 0;
   padding: 0;
@@ -90,16 +107,4 @@ body {
   border-width: 5vw 0vw 5vw 3.6327125vw;
   border-color: transparent transparent transparent white;
   transform: rotate(72deg);
-}
-
-#star3 {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 5vw 0vw 5vw 3.6327125vw;
-  border-color: transparent transparent transparent white;
-  transform: rotate(-68deg);
 }
