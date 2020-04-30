@@ -69,7 +69,8 @@ body {
   border-radius: 50%;
 }
 
-#star1 {
+#star::before {
+  content: "";
   position: absolute;
   margin: 0;
   padding: 0;
@@ -81,8 +82,11 @@ body {
   transform: rotate(0deg);
 }
 
-#star2 {
+#star {
   position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   margin: 0;
   padding: 0;
   width: 0;
@@ -93,7 +97,8 @@ body {
   transform: rotate(72deg);
 }
 
-#star3 {
+#star::after {
+  content: '';
   position: absolute;
   margin: 0;
   padding: 0;
