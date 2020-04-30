@@ -9,10 +9,6 @@ height:100vh
 }
 
 
-#container{
-    border:1px solid yellow;
-}
-
 #c1,#c2,#c3{margin:0;
     padding:0;
     height:5vw;
