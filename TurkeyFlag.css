@@ -78,7 +78,7 @@ body {
   border-style: solid;
   border-width: 5vw 0vw 5vw 3.6327125vw;
   border-color: transparent transparent transparent white;
-  transform: rotate(-68deg);
+  transform: rotate(-72deg);
 }
 
 #star {
@@ -104,6 +104,8 @@ body {
   width: 0;
   height: 0;
   border-style: solid;
+  top: -4.7058823529vw;
+  left: -3.9215686275vw;
   border-width: 5vw 0vw 5vw 3.6327125vw;
   border-color: transparent transparent transparent white;
   transform: rotate(72deg);

@@ -98,16 +98,18 @@ body {
 }
 
 #star::after {
-  content: '';
+  content: "";
   position: absolute;
   margin: 0;
   padding: 0;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 2.5vw 0vw 2.5vw 1.81635625vw;
+  top: -4.7058823529vw;
+  left: -3.9215686275vw;
+  border-width: 5vw 0vw 5vw 3.6327125vw;
   border-color: transparent transparent transparent white;
-  transform: rotate(-68deg);
+  transform: rotate(72deg);
 }
 
 #heart {
