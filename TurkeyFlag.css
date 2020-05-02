@@ -138,8 +138,8 @@ body {
     border-width: 5vw 0vw 5vw 3.6327125vw;
     border-color: transparent transparent transparent white;
     transform: rotate(72deg);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform: rotate(72deg);
+    -moz-transform: rotate(72deg);
+    -ms-transform: rotate(72deg);
+    -o-transform: rotate(72deg);
 }
