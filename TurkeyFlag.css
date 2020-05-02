@@ -47,6 +47,10 @@ body {
   height: 20vw;
   border-radius: 50%;
   background-color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 #hilal::after {
@@ -59,6 +63,10 @@ body {
   width: 16vw;
   height: 16vw;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 #circle {
@@ -130,8 +138,8 @@ body {
     border-width: 5vw 0vw 5vw 3.6327125vw;
     border-color: transparent transparent transparent white;
     transform: rotate(72deg);
-    -webkit-transform: rotate(72deg);
-    -moz-transform: rotate(72deg);
-    -ms-transform: rotate(72deg);
-    -o-transform: rotate(72deg);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
 }

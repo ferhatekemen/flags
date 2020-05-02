@@ -1,9 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   height: 100vh;
   background-color: #eee;
 }
@@ -20,8 +23,10 @@ body {
 #TurkeyFlag {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
   height: 20vw;
   background-color: #e30a17;
   width: 30vw;
@@ -30,8 +35,11 @@ body {
 
 #hilal {
   position: absolute;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
+  -webkit-box-pack: center;
   justify-content: center;
   margin: 0;
   padding: 0;
@@ -40,6 +48,10 @@ body {
   height: 10vw;
   border-radius: 50%;
   background-color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 #hilal::after {
@@ -53,12 +65,19 @@ body {
   width: 8vw;
   height: 8vw;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 #circle {
   position: absolute;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -67,25 +86,36 @@ body {
   height: 5vw;
   background-color: transparent;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 #star::before {
-  content: "";
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 2.5vw 0vw 2.5vw 1.81635625vw;
-  border-color: transparent transparent transparent white;
-  transform: rotate(-72deg);
+          content: "";
+          position: absolute;
+          margin: 0;
+          padding: 0;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 2.5vw 0vw 2.5vw 1.81635625vw;
+          border-color: transparent transparent transparent white;
+          -webkit-transform: rotate(-72deg);
+          transform: rotate(-72deg);
+          -moz-transform: rotate(-72deg);
+          -ms-transform: rotate(-72deg);
+          -o-transform: rotate(-72deg);
 }
 
 #star {
   position: absolute;
+  display: -webkit-box;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+          align-items: center;
   margin: 0;
   padding: 0;
   width: 0;
@@ -93,30 +123,37 @@ body {
   border-style: solid;
   border-width: 2.5vw 0vw 2.5vw 1.81635625vw;
   border-color: transparent transparent transparent white;
-  transform: rotate(0deg);
 }
 
 #star::after {
-  content: "";
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  top: -2.3529411765vw;
-  left: -1.9607843137vw;
-  border-width: 2.5vw 0vw 2.5vw 1.81635625vw;
-  border-color: transparent transparent transparent white;
-  transform: rotate(72deg);
+          content: "";
+          position: absolute;
+          margin: 0;
+          padding: 0;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          top: -2.3529411765vw;
+          left: -1.9607843137vw;
+          border-width: 2.5vw 0vw 2.5vw 1.81635625vw;
+          border-color: transparent transparent transparent white;
+          -webkit-transform: rotate(72deg);
+          transform: rotate(72deg);
+          -moz-transform: rotate(72deg);
+          -ms-transform: rotate(72deg);
+          -o-transform: rotate(72deg);
 }
 
 #heart {
-  margin: auto 6.6666666667vw;
-  width: 6.6666666667vw;
-  height: 6.6666666667vw;
-  background-color: #f33;
-  transform: rotate(-45deg);
+          margin: auto 6.6666666667vw;
+          width: 6.6666666667vw;
+          height: 6.6666666667vw;
+          background-color: #f33;
+          -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
 }
 
 #heart::before {
@@ -127,6 +164,10 @@ body {
   width: 6.6666666667vw;
   height: 6.6666666667vw;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 #heart::after {
@@ -137,6 +178,10 @@ body {
   width: 6.6666666667vw;
   height: 6.6666666667vw;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 #RoFlag {
