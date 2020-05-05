@@ -54,6 +54,7 @@ body {
 }
 
 #hilal::after {
+display:inline;
   margin: 0;
   position: absolute;
   padding: 0;
